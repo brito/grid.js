@@ -20,3 +20,8 @@ if you are interested in contributing.
 Features
 ========
 Nothing yet.
+
+Working on
+==========
+
+* <code>$().update(_data_)</code>
