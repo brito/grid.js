@@ -19,9 +19,12 @@ if you are interested in contributing.
     
 Features
 ========
-Nothing yet.
+    
+    /** mix of assert, error and info:
+    something (truthy) & joined arguments */
+    function recognize (something)
 
 Working on
 ==========
 
-* <code>$().update(_data_)</code>
+    function update (data)
