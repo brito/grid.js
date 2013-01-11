@@ -17,17 +17,16 @@ if you are interested in contributing.
 
     <script src="path/to/your/local/grid.js></script>
     
-Features
+API
 ========
 
-    /** mix of assert, error and info:
-    something (truthy),
-    somewhat (concatenated) */
-    function recognize (something, somewhat)
+* a mix of console assert/error and info for testing and debugging
+    <code>function recognize (something, more)</code>
 
 Working on
 ==========
     
+* a [gNius](http://github.com/phiveleven/gNius)-like interpolator
     function update (data?)
 
 Soon

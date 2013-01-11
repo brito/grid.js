@@ -1,5 +1,11 @@
+/** run? */
+grid ({
+    // run tests?
+    test: true
+})/**/
+
 /*! //github.com/brito/grid.js/blob/master/README.md */
-function grid () {
+function grid (vars) {
 
     /** a mix of assert, error and info
      * @param something {truthy} */
@@ -14,12 +20,13 @@ function grid () {
                 // a brute join
                [].join.call(arguments,' ')); }
 
-    /* if tests */
-    try { throw 'ಠ_ಠ' }
-    catch (e){
-      if (console) 
-          recognize ('Grid online ', new Date)
-      else
-          alert(e) }
+    /*! if test */
+    if ('test' in vars)
+        try { throw 'ಠ_ಠ' }
+        catch (e){
+          if (console) 
+              recognize ('ready', new Date)
+          else
+              alert(e) }
     /**/
 }
