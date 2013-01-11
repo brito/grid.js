@@ -19,12 +19,18 @@ if you are interested in contributing.
     
 Features
 ========
-    
+
     /** mix of assert, error and info:
-    something (truthy) & joined arguments */
-    function recognize (something)
+    something (truthy),
+    somewhat (concatenated) */
+    function recognize (something, somewhat)
 
 Working on
 ==========
+    
+    function update (data?)
 
-    function update (data)
+Soon
+====
+
+* adapt to mobile like [iOS sun app](http://pattern.dk/sun)
