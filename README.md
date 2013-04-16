@@ -20,14 +20,20 @@ if you are interested in contributing.
 API
 ========
 
-* a mix of console assert/error and info for testing and debugging
-    <code>function recognize (something, more)</code>
+* <code>function [recognize](recognize.js) (something, more)</code>
+    
 
 Working on
 ==========
+
+* <code> function [CORS](CORS.js) (url, options?)</code>
+
+
+Later
+======
     
-* a [gNius](http://github.com/phiveleven/gNius)-like interpolator
-    function update (data?)
+* <code>function [update](update.js) (data?)</code>
+    
 
 Soon
 ====
